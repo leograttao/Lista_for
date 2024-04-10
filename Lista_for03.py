@@ -1,4 +1,6 @@
-for i in range(1000):
+cont = 0
+
+while cont <= 1:
    
     numero = int(input("Digite um número entre 1 e 10 para descobrir a tabuada: "))
     
@@ -6,7 +8,7 @@ for i in range(1000):
         print("\nValor inválido\n")
         continue
     else:
-        break
+        cont += 1
         
 for n in range(1,11):
 
